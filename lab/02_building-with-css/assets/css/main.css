@@ -1,0 +1,91 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#a1 {
+  color: orange;
+  background-color: purple;
+  display: none;
+}
+#a2 {
+  background-color: red;
+  color: white;
+}
+
+#a3 {
+  background-color: pink;
+    display: inline-block;
+}
+
+#a4 {
+  background-color: yellow;
+  display: inline;
+}
+
+#a5 {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#a6{
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 10px;
+  top: 30px;
+}
+
+#b1 {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+.c{
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  position: absolute;
+}
+
+#c1{
+  background-color: rgb(50,50,50);
+}
+
+#c2{
+  background-color: rgb(100,100,100);
+  left: 30px;
+  top: 30px;
+}
+
+#c3 {
+  top: 60px;
+  left: 60px;
+  padding: 10px;
+}
+
+.d{
+  width: 62.5px;
+  height: 62.5px;
+  background-color: orange;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#d3{
+  position: relative:absolute;
+  top: 70px;
+}
+
+#d4{
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+}
