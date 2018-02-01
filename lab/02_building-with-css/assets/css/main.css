@@ -80,12 +80,31 @@ div {
 }
 
 #d3{
-  position: relative:absolute;
+  position: absolute;
   top: 70px;
 }
 
 #d4{
   margin-right: 0;
   position: absolute;
-  right: 0;
+  bottom: 10;
+  right: 10;
+  top: 0;
+  height: auto;
+
+}
+
+nav {
+  position: fixed;
+top: 0;
+right: 0;
+background-color: orange;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav li:hover {
+  background-color: white;
 }
