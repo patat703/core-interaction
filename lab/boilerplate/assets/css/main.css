@@ -1,0 +1,184 @@
+/* BASE STYLES */
+
+header, main, footer {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: unset;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+aside {
+  font-family: monospace;
+}
+
+/* CHARACTERS */
+
+.character::before {
+  font-family: monospace;
+  text-transform: uppercase;
+  display: block;
+}
+
+.jules::before {
+  content: 'Jules';
+}
+
+.brett::before {
+  content: 'Brett';
+}
+
+.vincent::before {
+  content: 'Vincent';
+}
+
+.marvin::before {
+  content: 'Marvin';
+}
+
+.roger::before {
+  content: 'Roger';
+}
+
+
+/* CUSTOM STYLES */
+
+.jules {
+  padding-left: 50px;
+}
+
+.brett {
+  padding-left: 100px;
+}
+
+.vincent, .marvin, .roger{
+  padding-left: 150px;
+}
+
+aside, .character{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: red;
+  font-family: monospace;
+
+
+}
+
+.fig-wrapper-1{
+  font-size: 0;
+}
+
+.fig-2, .fig-3{
+  width: calc(50%-75px);
+  display: inline-block;
+  font-size: initial;
+  margin: 50px;
+
+}
+
+.fig-3{
+  margin-left: 0;
+}
+
+.fig-4{
+  width: 50%;
+  float: left;
+  margin: 50px 50px 50px 0;
+}
+
+.fig-wrapper-2{
+    display: flex;
+}
+
+.fig-wrapper-2 figure{
+  margin: 50px 0 50px 50px;
+}
+
+.fig-wrapper-2 figure:last-child{
+  margin-right:50px;
+}
+
+.fig-wrapper-3{
+  display:flex;
+  align-items: flex-end;
+}
+
+.fig-wrapper-3 figure{
+  margin: 50px 0 50px 50px;
+}
+
+.fig-wrapper-3 figure: last child {
+  margin-right: 50px;
+}
+
+.fig-7 {
+  flex: 1;
+}
+
+.fig-8{
+  flex: 2;
+}
+
+.fig-wrapper-4{
+  display: flex;
+
+}
+
+.fig-wrapper-4 figure {
+  margin: 50px 0 50px 50px
+}
+
+.fig-wrapper-4 figure:lasat-child {
+  margin-right: 50px;
+}
+
+.fig-wrapper-4 .fig-11{
+  margin-top: 0;
+}
+
+main.index{
+  display:flex;
+  height: 500px;
+}
+
+main.index p, main.index nav{
+  flex: 0 0 50%;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+main.index ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main.index li {
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
