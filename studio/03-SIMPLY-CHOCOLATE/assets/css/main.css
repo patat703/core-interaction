@@ -1,11 +1,10 @@
 p {
-    display: block;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-right: 3em;
+  margin: 60px 60px 60px 60px;
+  font-size:1.5em;
+  font-family: "gill sans";
 }
 
-h2,h4{
+h2,h4,ul,a{
   font-family:"gill sans";
+  margin: 60px 60px 60px 60px;
 }
