@@ -1,0 +1,22 @@
+body{
+  background-color:yellow;
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.outer{
+    background-color: orange;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner{
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+}
