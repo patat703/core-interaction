@@ -1,15 +1,23 @@
-@media only screen and (max-width:1024px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
+
+
+img {
+  width: 300px;
+}
+@media (max-width: 500px) {
+  img {
+    width: 100px;
+  }
+@media (max-width: 700px) {
+  img {
+    width: 50px;
   }
 }
-@media only screen and (max-width:240px) {
-  /* For mobile phones: */
-  .menu, .main {
-    width: 200%;
-  }
+
+@media only screen and (min-width: 767px) {
+
+  h2{
+      font-size: 5em;
+   }
 }
 
 * {
@@ -26,27 +34,11 @@
   border-bottom: 1px solid #f1f1f1;
 }
 .main {
-  float: left;
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
-  font-size: 5em;
+  font-size: 3em;
   font-family: "circe";
   color: purple;
-}
-
-input[type=checkbox] {
-  display: none;
-}
-
-.container img {
-  margin: 100px;
-  transition: transform 0.25s ease;
-  cursor: zoom-in;
-  width: 5%;
-}
-
-input[type=checkbox]:checked ~ label > img {
-  transform: scale(3);
-  cursor: zoom-out;
+   text-align: center;
 }
