@@ -5,3 +5,32 @@ p {
     margin-left: 3em;
     margin-right: 3em;
 }
+
+h1{
+  font-family: "circe";
+  text-align: center;
+  font-style: italic;
+	font: 200px "circe";
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+  position: relative;
+}
+
+h1:after {
+	content: "Core Studio";
+	position: absolute; left: 157px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 4em;
+  font-family: "circe";
+  text-align:center;
+  line-height: 100px;
+  margin-left: 280px;
+  color: purple;
+
+}
