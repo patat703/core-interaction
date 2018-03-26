@@ -1,0 +1,10 @@
+/* GLOBAL CSS */
+/* CSS from here should be applied to all pages */
+
+h1 {
+    font-family: cursive;
+}
+
+a {
+    color: green;
+}
