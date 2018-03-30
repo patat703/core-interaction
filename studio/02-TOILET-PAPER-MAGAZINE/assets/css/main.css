@@ -5,3 +5,15 @@ p {
     margin-left: 3em;
     margin-right: 3em;
 }
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+.change-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
