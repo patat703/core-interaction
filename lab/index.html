@@ -6,31 +6,66 @@
     </head>
 
     <body>
-            <h1>Core Lab</h1>
-    <div>
-            <a href="01-getting-started/index.html">GETTING STARTED</a>
-    </div>
-    <div>
-            <a href="02_building-with-css/index.html">BUILDING WITH CSS</a>
-    </div>
-    <div>
-            <a href="03_boilerplate_1/index.html">BOILERPLATE 1</a>
-    </div>
-    <div>
-            <a href="04_boilerplate_2/index.html">BOILERPLATE 2</a>
-    </div>
-    <div>
-            <a href="05_something_responsive/index.html">SOMETHING RESPONSIVE</a>
-    </div>
 
-    <div>
-            <a href="07_js_intro/index.html">Javascript Introduction</a>
-    </div>
+<h1>LAB</h1>
+
+<p id="demo"></p>
 
 
+<div id="container">
+<div>
+<a href="01-getting-started/index.html">GETTING STARTED</a></div>
+<div>
+<a href="02_building-with-css/index.html">BUILDING WITH CSS</a></div>
+<div>
+<a href="03_boilerplate_1/index.html">BOILERPLATE 1</a></div>
+<div>
+<a href="04_boilerplate_2/index.html">BOILERPLATE 2</a></div>
+<div>
+<a href="05_something_responsive/index.html">SOMETHING RESPONSIVE</a></div>
+</div>
+<div>
+<a href="07_js_intro/index.html">JAVASCRIPT INTRODUCTION</a></div>
+</div>
 
-            <br>
-            <br>
-            <a href="../index.html">BACK</a>
-    </body>
+<div id="fixed-div">
+<div id="dragme2" class="draggable" style="position:absolute;top:300px;left:85px;pointer-events: all;">
+<div class="rotating">
+<a href="theme.html" target="_blank">About</a>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+
+document.getElementById("dragme2").onmousedown = function(e) {
+this.prevX = e.clientX;
+this.prevY = e.clientY;
+this.mouseDown = true;
+}
+document.getElementById("dragme2").onmousemove = function(e) {
+if(this.mouseDown) {
+this.style.left = (Number(this.style.left.substring(0, this.style.left.length-2)) + (e.clientX - this.prevX)) + "px";
+this.style.top = (Number(this.style.top.substring(0, this.style.top.length-2)) + (e.clientY - this.prevY)) + "px";
+}
+this.prevX = e.clientX;
+this.prevY = e.clientY;
+}
+document.getElementById("dragme2").onmouseup = function() {
+this.mouseDown = false;
+}
+
+
+
+</script></projectcontent>
+</div>
+
+
+
+<br>
+<br>
+<a href="../index.html">BACK</a>
+
+<script src="assets/js/main.js"></script>
+</body>
 </html>

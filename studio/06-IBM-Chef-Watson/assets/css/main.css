@@ -1,0 +1,99 @@
+p {
+    display: block;
+    font-family: "circe";
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 30em;
+    margin-right: 3em;
+}
+
+.header{
+  width:1265px;
+  height: auto;
+  margin-top:-37px;
+}
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+h2,h4{
+  font-family:"circe";
+  float: left;
+}
+
+h4{
+  margin-top:22.5px;
+}
+
+#source{
+  font-family:"circe";
+  font-size:1em;
+  margin-top: 50px;
+  margin-left:60px;
+
+}
+.rotated{
+   transform: rotate(90deg);
+   float: left;
+   margin-top:40px;
+   margin-left:-30px;
+   font-family:"circe";
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-block{
+  margin-left: 480px;
+}
+
+#list{
+  font-family: "circe";
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.image.two {
+  display: none;
+}
+
+.changeimage:hover .image.one {
+  border:3px solid black;
+  display:none;
+}
+
+.changeimage:hover .image.two{
+  display:block;
+  width: 30%;
+  left:10px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.changeimage .image.one{
+  width: 20%;
+  display: block;
+  position: absolute;
+  left:10px;
+  margin-left: 60px;
+  margin-top: 90px;
+
+}
+
+#back{
+  font-family: "EQ TH";
+  font-size: 100px;
+  transform: rotate(180deg);
+  float: left;
+  margin-left:1000px;
+  position: absolute;
+  margin-top:-90px;
+
+}

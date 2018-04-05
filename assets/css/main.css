@@ -1,27 +1,72 @@
-h1{
-  font-size: 10em;
-  font-family: "circe";
+body {
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+h1 {
+  font-size:6em;
+  color: #F9F073;
+  text-transform: uppercase;
+  margin: 100px;
   text-align: center;
-  font-style: italic;
-  line-height: 130px;
-  transform:skew(50deg,10deg) scaleY(.7);
 }
 
-h1:hover{
-    color:#f00;
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
-a {
+img.studio-img{
+  display: none
+}
+
+a.studio:hover + img.studio-img {
+  display: block;
+  margin: top;
+  width: 20%;
+  height: auto;
+}
+
+img.lab-img{
+  display: none
+}
+
+a.lab:hover + img.lab-img {
+  display: block;
+  margin-left:300px;
+  margin-top:50px;
+  width: 25%;
+  height: auto;
+}
+
+
+.studio{
+  font-size:3em;
+  color:black;
+  font-weight:100;
   text-decoration: none;
-  font-size: 5em;
-  font-family: "circe";
-  line-height: 2px;
-  margin-left: 170px;
-  color: #1D13A2;
-  line-height: 1em;
-
-
-
-
-
+  margin-left:140px;
+  position: absolute;
 }
+
+.lab{
+  font-size:3em;
+  color:black;
+  font-weight:100;
+  text-decoration: none;
+  margin-left:400px;
+  margin-top:80px;
+  position: absolute;
+}
+/* 
+.scroll-left{
+  position:abosolute;
+  height: 20px;
+  width: auto;
+} */
+
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }

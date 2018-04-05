@@ -1,25 +1,26 @@
 p {
     display: block;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-right: 3em;
+
 }
 
 h1{
   font-family: "circe";
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 50px;
   font-style: italic;
-	font: 200px "circe";
-	letter-spacing: -5px;
-	color: #e56d39;
+	font: 20px "circe";
+	letter-spacing: 0;
+	color: black;
   position: relative;
   line-height: 0;
+  display: inline-block;
+  width: 500px;
 }
 
 h1:after {
-	content: "Core Studio";
-	position: absolute; left: 157px; top: 5px;
+	content: "GRAPHIC DESIGN";
+	position: absolute; left: 2px; top: 1px;
 	color: #290f66;
 }
 
@@ -33,7 +34,7 @@ a {
   font-size: 3em;
   font-family: "circe";
   text-align:center;
-  line-height: 50px;
+  line-height: 100px;
   margin-left: 280px;
   color: #5c0a77;
   display:block;
@@ -43,7 +44,7 @@ a {
 /* DEMO-SPECIFIC STYLES */
 a {
   color: #5c0a77;
-  font-family: monospace;
+  font-family: "circe";
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -52,6 +53,18 @@ a {
   animation:
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
+}
+
+#container{
+  margin-top:50px;
+}
+
+#demo{
+font-family: "circe";
+font-size: 20px;
+position:absolute;
+right: 10px;
+top: 10px;
 }
 
 /* The typing effect */
@@ -180,5 +193,5 @@ move cursor */
 .rotating {
 	cursor: move;
 	display: block;
-	border: none !important;
+	border: ]none !important;
 }
