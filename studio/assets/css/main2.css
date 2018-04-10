@@ -1,0 +1,35 @@
+
+h2,h4{
+  font-family:"circe";
+  float: left;
+}
+
+h4{
+  margin-top:22.5px;
+}
+
+.rotated{
+   transform: rotate(90deg);
+   float: left;
+   margin-top:40px;
+   margin-left:-30px;
+   font-family:"circe";
+}
+
+p {
+    font-family: "circe";
+    position: absolute;
+    margin-left: 440px;
+    margin-top:100px;
+
+}
+
+#back{
+  font-family: "EQ TH";
+  font-size: 100px;
+  transform: rotate(180deg);
+  position: absolute;
+  float: right;
+  margin-top:360px;
+  margin-left: 850px;
+}

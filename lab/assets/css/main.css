@@ -31,10 +31,10 @@ h1:hover{
 
 a {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2em;
   font-family: "circe";
   text-align:center;
-  line-height: 100px;
+  line-height: 60px;
   margin-left: 280px;
   color: #5c0a77;
   display:block;
@@ -81,8 +81,10 @@ top: 10px;
 /*
 rotating circle for dragme2 */
 #dragme2 .rotating{
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
+    margin-top:-100px;
+    margin-left:40px;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Red-circle.svg);
 	background-size: 100% 100%;
 	-webkit-animation: rotating 10s linear infinite;
@@ -100,8 +102,8 @@ rotating circle for dragme2 */
 
 /* adjust "theme" in position */
 .draggable .rotating a {
-	line-height: 15vw;
-	font-size: 1.3em;
+	line-height: 10vw;
+	font-size: 1em;
 	border: none;
 }
 
