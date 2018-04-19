@@ -5,6 +5,24 @@ p {
 
 }
 
+h2,h3{
+  font-family:"circe";
+  float: left;
+}
+
+h3{
+  margin-top:22.5px;
+}
+
+.rotated{
+   transform: rotate(90deg);
+   float: left;
+   margin-top:50px;
+   margin-left:-20px;
+   font-family:"circe";
+   font-size:1.5em;
+}
+
 img.header{
   width:1265px;
   height: auto;

@@ -28,21 +28,22 @@ h1:hover{
     color:#f00;
 }
 
-h2,h4{
+h2,h3{
   font-family:"circe";
   float: left;
 }
 
-h4{
+h3{
   margin-top:22.5px;
 }
 
 .rotated{
    transform: rotate(90deg);
    float: left;
-   margin-top:40px;
-   margin-left:-30px;
+   margin-top:50px;
+   margin-left:-20px;
    font-family:"circe";
+   font-size:1.5em;
 }
 
 a {

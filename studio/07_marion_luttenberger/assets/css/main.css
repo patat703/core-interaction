@@ -17,6 +17,14 @@ h3{
   margin-top:22.5px;
 }
 
+img{
+margin-top: 20px;
+margin-left:180px;
+height: 500px;
+width: auto;
+display: inline-block;
+}
+
 .rotated{
    transform: rotate(90deg);
    float: left;
@@ -24,10 +32,6 @@ h3{
    margin-left:-30px;
    font-family:"circe";
    font-size:1.5em;
-}
-
-.head{
-  margin-top:500px;
 }
 
 #source{
@@ -56,38 +60,6 @@ h3{
   margin-top:20px;
 }
 
-.image.two {
-  display: none;
-}
-
-.changeimage:hover .image.one {
-  border:3px solid black;
-  display:none;
-}
-
-.changeimage:hover .image.two{
-  display:block;
-  width: 1290px;
-  height: 500px;
-  position: absolute;
-
-}
-
-.changeimage .image.one{
-  width: 1290px;
-  height: 500px;
-  display: block;
-  position: absolute;
-
-}
-
-.changeimage{
-  display: inline-block;
-  margin-top: -10px;
-  margin-left:-30px;
-
-
-}
 
 #back{
   font-family: "EQ TH";
@@ -98,30 +70,4 @@ h3{
   position: absolute;
   margin-top:-90px;
 
-}
-
-.comparison {
-	position: absolute;
-	width: 500px;
-	height: 400px;
-	cursor: ew-resize;
-  margin-left:70px;
-  margin-top:80px;
-}
-
-.image {
-	width: 500px;
-	height: 400px;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	left: 0;
-	user-select: none
-}
-
-.image.b {
-	width: 500px;
-  height: 400px;
-	border-right: 1px solid black;
-	object-position: left;
 }
