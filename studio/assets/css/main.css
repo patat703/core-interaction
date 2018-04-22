@@ -1,31 +1,32 @@
+ @import url("https://use.typekit.net/vxb2dqu.css");
+ 
 p {
     display: block;
-
 }
 
 h1{
-  font-family: "circe";
+  font-family:"apercu";
   text-align: left;
+  font-size:2em;
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
   font-style: italic;
-	font: 20px "circe";
 	letter-spacing: 0;
 	color: black;
   position: relative;
   line-height: 0;
   display: inline-block;
-  width: 500px;
 }
 
 h1:after {
 	content: "GRAPHIC DESIGN";
-	position: absolute; left: 2px; top: 1px;
-	color: #290f66;
+	position: absolute; left: -2px; top: 1px;
+	color: orange;
+  font-family:"apercu";
 }
 
 h1:hover{
-    color:#f00;
+    color:#f7cac9;
 }
 
 h2,h3{
@@ -58,18 +59,35 @@ a {
   margin: auto;
 }
 
+.bg{
+z-index:-1;
+
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+overflow:hidden;
+position:fixed;
+}
+
 /* DEMO-SPECIFIC STYLES */
 a {
-  color: #5c0a77;
+  color: white;
   font-family: "circe";
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .30em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
+}
+
+.note{
+  font-family: "apercu";
+  color: white;
+  font-size: 0.4em;
+  margin-left:10px;
 }
 
 #container{
@@ -102,7 +120,7 @@ rotating circle for dragme2 */
     height: 10vw;
     margin-top:-100px;
     margin-left:40px;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Red-circle.svg);
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Blank_vertex_Hexagonal_Icon.svg/2000px-Blank_vertex_Hexagonal_Icon.svg.png);
 	background-size: 100% 100%;
 	-webkit-animation: rotating 10s linear infinite;
 	-moz-animation: rotating 10s linear infinite;
@@ -122,6 +140,12 @@ rotating circle for dragme2 */
 	line-height: 10vw;
 	font-size: 1em;
 	border: none;
+}
+
+/* move cursor */
+.rotating {
+	cursor: move;
+	display: block;
 }
 
 
@@ -206,11 +230,3 @@ responsive */
 	#fixed-div {
 		display: none;
 	}
-
-/* }
-move cursor */
-.rotating {
-	cursor: move;
-	display: block;
-	border: ]none !important;
-}

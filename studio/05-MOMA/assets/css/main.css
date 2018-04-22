@@ -1,3 +1,5 @@
+ @import url("https://use.typekit.net/vxb2dqu.css");
+
 p {
   margin: 30px 60px 30px 60px;
   font-size:1em;
@@ -13,5 +15,5 @@ h3{
 font-family:"gill sans";
 font-size:2em;
 margin: 60px 60px 60px 60px;
-color: purple;  
+color: purple;
 }

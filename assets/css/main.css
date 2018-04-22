@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  font-family: 'tradegothiclt-bold', sans-serif;
+  font-family:"apercu";
 }
 
 h1 {
@@ -9,11 +9,6 @@ h1 {
   text-transform: uppercase;
   margin: 100px;
   text-align: center;
-}
-
-span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
 }
 
 img.studio-img{
@@ -33,40 +28,25 @@ img.lab-img{
 
 a.lab:hover + img.lab-img {
   display: block;
-  margin-left:300px;
-  margin-top:50px;
+  margin-left:945px;
   width: 25%;
   height: auto;
 }
 
 
 .studio{
-  font-size:3em;
+  font-size:8em;
   color:black;
-  font-weight:100;
   text-decoration: none;
-  margin-left:140px;
+  margin-left:340px;
   position: absolute;
+  transform: rotate(90deg);
 }
 
 .lab{
-  font-size:3em;
+  font-size:8em;
   color:black;
-  font-weight:100;
   text-decoration: none;
-  margin-left:400px;
-  margin-top:80px;
+  margin-left:600px;
   position: absolute;
 }
-/* 
-.scroll-left{
-  position:abosolute;
-  height: 20px;
-  width: auto;
-} */
-
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
