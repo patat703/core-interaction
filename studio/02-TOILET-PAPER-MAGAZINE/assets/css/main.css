@@ -1,4 +1,26 @@
  @import url("https://use.typekit.net/vxb2dqu.css");
+ a{
+   text-decoration: none;
+   display: block;
+   color:#d64161;
+ }
+
+ h1{
+   color:#4040a1;
+ }
+
+ h2{
+   font-family:"circe";
+   float: left;
+   color:green;
+ }
+
+ h3{
+   margin-top:22.5px;
+   font-family:"circe";
+   float: left;
+   color:#d64161
+ }
 
 p {
     display: block;
@@ -9,15 +31,47 @@ p {
     margin-right: 3em;
 }
 
-
-h2,h3{
-  font-family:"circe";
+.navbar a {
   float: left;
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "apercu";
 }
 
-h3{
-  margin-top:22.5px;
+.navbar {
+  overflow: hidden;
+  background-color: beige;
 }
+
+.navbar a:hover {
+  background: yellow;
+  color: black;
+}
+
+ .hover01{
+ margin-top: 20px;
+ margin-left:180px;
+ height: 500px;
+ width: auto;
+ display: inline-block;
+ }
+
+ .hover01{
+   position:absolute;
+   left:-180px;
+ }
+
+ .rotated{
+    transform: rotate(90deg);
+    float: left;
+    margin-top:40px;
+    margin-left:-30px;
+    font-family:"circe";
+    font-size:1.5em;
+ }
 
 .rotated{
    transform: rotate(90deg);
@@ -29,17 +83,18 @@ h3{
 }
 
 .head{
-  margin-top:500px;
+  margin-top:450px;
 }
 
-#source{
-  font-family:"circe";
-  font-size:1em;
-  margin-top: 50px;
-  margin-left:60px;
-
+.containsource {
+    position: absolute;
+    font-family: "circe";
+    bottom:-600px;
+    margin-left: 40em;
+    margin-right: 3em;
 }
 
+/* video */
 .center{
   display: block;
   margin-left: auto;
@@ -52,56 +107,33 @@ h3{
   margin-top: -150px;
 }
 
-#list{
-  font-family: "circe";
-  margin-left:20px;
-  margin-top:20px;
-}
-
+/* header image */
 .image.two {
   display: none;
 }
 
-.changeimage:hover .image.one {
+.header:hover .image.one {
   border:3px solid black;
   display:none;
 }
 
-.changeimage:hover .image.two{
-  display:block;
-  width: 1290px;
-  height: 500px;
+.header:hover .image.two{
+  top:70px;
+  width: 100%;
+  display:inline-block;
   position: absolute;
 
 }
 
-.changeimage .image.one{
-  width: 1290px;
-  height: 500px;
-  display: block;
-  position: absolute;
-
-}
-
-.changeimage{
+.header .image.one{
+  top:70px;
+  width: 100%;
   display: inline-block;
-  margin-top: -10px;
-  margin-left:-30px;
-
-
-}
-
-#back{
-  font-family: "EQ TH";
-  font-size: 100px;
-  transform: rotate(180deg);
-  float: left;
-  margin-left:1000px;
   position: absolute;
-  margin-top:-90px;
 
 }
 
+/* comparison images */
 .comparison {
 	position: absolute;
 	width: 500px;
@@ -126,4 +158,16 @@ h3{
   height: 400px;
 	border-right: 1px solid black;
 	object-position: left;
+}
+
+#back{
+  font-family: "circe";
+  font-size: 100px;
+  transform: rotate(180deg);
+  float: left;
+  margin-left:1000px;
+  position: absolute;
+  margin-top:50px;
+  text-decoration: none;
+  color: #4040a1;
 }
