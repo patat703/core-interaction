@@ -118,7 +118,7 @@ p {
 }
 
 .header:hover .image.two{
-  top:70px;
+  top:57px;
   width: 100%;
   display:inline-block;
   position: absolute;
@@ -126,11 +126,10 @@ p {
 }
 
 .header .image.one{
-  top:70px;
+  top:57px;
   width: 100%;
   display: inline-block;
   position: absolute;
-
 }
 
 /* comparison images */
