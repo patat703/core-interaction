@@ -1,0 +1,112 @@
+@import url("https://use.typekit.net/vxb2dqu.css");
+
+.navbar a {
+ float: left;
+ display: block;
+ color: black;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ font-family: "apercu";
+}
+
+.navbar {
+ overflow: hidden;
+ background-color: white;
+}
+
+.navbar a:hover {
+ background: yellow;
+ color: black;
+}
+
+.header{
+ width:100%;
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ overflow:hidden;
+ margin-bottom:50px;
+}
+
+.rotated{
+   transform: rotate(90deg);
+   float: left;
+   margin-top:40px;
+   margin-left:-30px;
+   font-family:"circe";
+   font-size:1.5em;
+}
+
+.hover01{
+margin-top: 20px;
+margin-left:195px;
+height: 100px;
+width: auto;
+display: inline-block;
+position:absolute;
+left:-180px;
+}
+
+/* Zoom In #1 */
+.hover01 figure img {
+ -webkit-transform: scale(0.8);
+ transform: scale(0.8);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+}
+
+.hover01 figure:hover img {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+
+.two{
+  margin-top:-80px;
+}
+
+.three{
+  margin-top:-80px;
+}
+
+a{
+ text-decoration: none;
+ display: block;
+ color: #d64161;
+}
+
+h1{
+ color:#4040a1;
+}
+
+h2{
+ color:green;
+ font-family:"circe";
+ float: left;
+}
+
+h3{
+ margin-top:22.5px;
+ font-family:"circe";
+ float: left;
+ color:#d64161
+
+}
+
+p {
+   display: inline-block;
+   font-family: "circe";
+   margin-left: 40em;
+   margin-right: 3em;
+}
+
+#back{
+ font-family: "circe";
+ font-size: 100px;
+ transform: rotate(180deg);
+ position: absolute;
+ right:50px;
+ margin-top:100px;
+ text-decoration: none;
+ color:#4040a1;
+}

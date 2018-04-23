@@ -12,12 +12,21 @@
 
 .navbar {
  overflow: hidden;
- background-color: beige;
+ background-color: white;
 }
 
 .navbar a:hover {
  background: yellow;
  color: black;
+}
+
+.header{
+ width:100%;
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ overflow:hidden;
+ margin-bottom:50px;
 }
 
 .rotated{
@@ -29,36 +38,36 @@
    font-size:1.5em;
 }
 
-.header{
- width:100%;
- height:auto;
- background-size:cover;
- background-repeat: no-repeat;
- background-position: center;
- overflow:hidden;
- margin-bottom:50px;
-}
-
 .hover01{
-position: absolute;
-display: inline-grid;
+margin-top: 20px;
+margin-left:190px;
+height: 100px;
+width: auto;
+display: inline-block;
+position:absolute;
 left:-180px;
-top: 500px;
 }
 
+/* Zoom In #1 */
+.hover01 figure img {
+ -webkit-transform: scale(0.8);
+ transform: scale(0.8);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+}
 
- /* Zoom In #1 */
- .hover01 figure img {
- 	-webkit-transform: scale(0.4);
- 	transform: scale(0.4);
- 	-webkit-transition: .3s ease-in-out;
- 	transition: .3s ease-in-out;
- }
+.hover01 figure:hover img {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
 
- .hover01 figure:hover img {
- 	-webkit-transform: scale(0.5);
- 	transform: scale(0.5);
- }
+.two{
+  margin-top:-80px;
+}
+
+.three{
+  margin-top:-80px;
+}
 
 a{
  text-decoration: none;

@@ -12,7 +12,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: beige;
+  background-color: white;
 }
 
 .navbar a:hover {
@@ -61,8 +61,16 @@
  	transform: scale(1);
  }
 
- .gy{
-   margin-top:-80px;
+ .green{
+   position: absolute;
+   float: left;
+   margin-top:-90px;
+ }
+
+ .yellow{
+   position: absolute;
+   float: left;
+   margin-top:200px;
  }
 
 a{
@@ -102,7 +110,7 @@ p {
   transform: rotate(180deg);
   position: absolute;
   right:50px;
-  margin-top:900px;
+  margin-top:200px;
   text-decoration: none;
   color:#4040a1;
 }

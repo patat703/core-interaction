@@ -21,18 +21,18 @@
 }
 
 .header{
-  width: auto;
-  height: 1000px;
- background-size:cover;
- background-repeat: no-repeat;
- background-position: center;
- overflow:hidden;
- margin-bottom:50px;
+width: auto;
+height: 1000px;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+overflow:hidden;
+margin-bottom:-450px;
 }
 
 .hover01{
-top:1100px;
-margin-left:180px;
+top:600px;
+margin-left:195px;
 height: 500px;
 width: auto;
 display: inline-block;
