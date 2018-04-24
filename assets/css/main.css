@@ -11,42 +11,31 @@ h1 {
   text-align: center;
 }
 
-img.studio-img{
-  display: none
-}
-
-a.studio:hover + img.studio-img {
-  display: block;
-  margin: top;
-  width: 20%;
-  height: auto;
-}
-
-img.lab-img{
-  display: none
-}
-
-a.lab:hover + img.lab-img {
-  display: block;
-  margin-left:945px;
-  width: 25%;
-  height: auto;
-}
-
-
 .studio{
   font-size:8em;
-  color:black;
+  color:white;
   text-decoration: none;
   margin-left:340px;
   position: absolute;
   transform: rotate(90deg);
 }
 
+.studio:hover{
+    transform: rotate(-90deg);
+    color:#4040a1;
+}
+
 .lab{
   font-size:8em;
-  color:black;
+  color:white;
   text-decoration: none;
   margin-left:600px;
+  margin-top:-80px;
   position: absolute;
+  transform: rotate(90deg);
+}
+
+.lab:hover{
+    transform: rotate(-90deg);
+    color:#4040a1;
 }
