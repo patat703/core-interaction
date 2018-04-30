@@ -22,8 +22,9 @@
 $("button").click(function(){
     $.ajax({type: "GET",
   dataType: 'jsonp',
-  url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb", success: function(result){
-      console.log('hi')
+  url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb",
+  success: function(result){
+      console.log(result)
         $("#div1").html(result);
     },
 error: function(e){
