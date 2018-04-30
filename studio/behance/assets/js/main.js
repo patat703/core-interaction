@@ -20,7 +20,7 @@
 
 // request.send();
 $("button").click(function(){
-    $.ajax({type: "POST",
+    $.ajax({type: "GET",
   dataType: 'jsonp',
   url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb", success: function(result){
       console.log('hi')
