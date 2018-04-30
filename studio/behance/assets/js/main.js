@@ -30,9 +30,9 @@ $("button").click(function(){
         var name = result.projects[i].name
         var imgLink = result.projects[i].covers.original
         //create div to hold each image and title
-        var container = $('<div/>');
+        var container = $('<div></div>');
         var img = $('<img/>');
-        var title = $('<h1/>');
+        var title = $('<h1></h1>');
         $(img).attr('src', imgLink);
         $(title).html(name);
         $(container).append(img);
@@ -40,7 +40,7 @@ $("button").click(function(){
         $(body).append(container);
 
 
-        
+
       }
         // $("#div1").html(result);
     },
