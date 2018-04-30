@@ -37,7 +37,7 @@ $("button").click(function(){
         $(title).html(name);
         $(container).append(img);
         $(container).append(title);
-        $(body).append(container);
+        $('body').append(container);
 
 
 
