@@ -24,8 +24,9 @@ $("button").click(function(){
   dataType: 'jsonp',
   url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb",
   success: function(result){
-      console.log(result)
-        $("#div1").html(result);
+      console.log(result.projects)
+      debugger
+        // $("#div1").html(result);
     },
 error: function(e){
   console.log(e)
