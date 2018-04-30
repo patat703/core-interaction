@@ -20,7 +20,9 @@
 
 // request.send();
 $("button").click(function(){
-    $.ajax({url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb", success: function(result){
+    $.ajax({type: "POST",
+  dataType: 'jsonp',
+  url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb", success: function(result){
       console.log('hi')
         $("#div1").html(result);
     },
