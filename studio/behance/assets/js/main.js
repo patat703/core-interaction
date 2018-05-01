@@ -20,7 +20,8 @@
 //result.projects[0].covers.original
 //result.projects[0].name
 // request.send();
-$("button").click(function(){
+// $("button").click(function(){
+{
     $.ajax({type: "GET",
   dataType: 'jsonp',
   url: "https://www.behance.net/v2/projects/?q=photography%20graphic&client_id=RbEgyxFDwBZlOmDvWqayuwejUt3fADvb",
@@ -48,4 +49,6 @@ error: function(e){
   console.log(e)
 }
            });
-});
+}
+// )
+;
