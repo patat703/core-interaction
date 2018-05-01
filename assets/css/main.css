@@ -1,6 +1,7 @@
 @font-face {
     font-family: "apercu";
     src: url(apercu-regular-webfont.ttf);
+}
 
 body {
   height: 100%;
