@@ -1,11 +1,10 @@
-@font-face {
-    font-family: "apercu";
-    src: url(apercu-regular-webfont.otf);
-}
+@import url("https://use.typekit.net/vxb2dqu.css");
 
 body {
   height: 100%;
-  font-family:"apercu";
+  font-family: sofia-pro-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 h1 {
