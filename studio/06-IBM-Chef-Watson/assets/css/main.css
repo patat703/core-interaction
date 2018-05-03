@@ -48,7 +48,9 @@
    padding: 14px 16px;
    text-decoration: none;
    font-size: 17px;
-   font-family: "apercu";
+   font-family: sofia-pro-soft, sans-serif;
+   font-style: normal;
+   font-weight: 500;
  }
 
  .navbar {
