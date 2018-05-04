@@ -2,7 +2,7 @@
 
 
 /* Extra small devices (phones, 478px and down) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
     img{
       width:100%;
@@ -47,7 +47,7 @@
     }
 
     .logo{
-      position: absolute;
+    position: absolute;
       width:10%;
       right:1220px;
       bottom:673px;
