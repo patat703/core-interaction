@@ -1,5 +1,15 @@
 @import url("https://use.typekit.net/vxb2dqu.css");
 
+
+/* Extra small devices (phones, 478px and down) */
+@media only screen and (max-width: 480px) {
+  
+    img{
+      width:100%;
+    }
+
+}
+
 /* top bar */
 .navbar a {
  float: left;

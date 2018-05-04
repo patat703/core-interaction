@@ -8,7 +8,7 @@
       transform: rotate(360deg);
     }
     h1 {
-      font-size: 2vw;
+      font-size: vw;
     }
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size:2em;
+  font-size:6em;
   color: #F9F073;
   text-transform: uppercase;
   margin: 100px;
