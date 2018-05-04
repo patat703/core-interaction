@@ -2,10 +2,14 @@
 
 /* Extra small devices (phones, 478px and down) */
 @media only screen and (max-width: 480px) {
-a:link{
-  font-size:4em;
-  margin-left: 40vw;
-}
+    a:link{
+      font-size:6em;
+      margin-left: 18vw;
+      transform: rotate(360deg);
+    }
+    h1 {
+      font-size: 2vw;
+    }
 }
 
 body {
@@ -16,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size:6em;
+  font-size:2em;
   color: #F9F073;
   text-transform: uppercase;
   margin: 100px;
