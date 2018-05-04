@@ -1,5 +1,13 @@
 @import url("https://use.typekit.net/vxb2dqu.css");
 
+/* Extra small devices (phones, 478px and down) */
+@media only screen and (max-width: 480px) {
+a:link{
+  font-size:4em;
+  margin-left: 40vw;
+}
+}
+
 body {
   height: 100%;
   font-family: sofia-pro-soft, sans-serif;
