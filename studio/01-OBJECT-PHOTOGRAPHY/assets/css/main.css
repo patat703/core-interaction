@@ -8,16 +8,18 @@
       width:100%;
     }
     p{
-      font-size:14pt;
-      width: 100%;
+      font-size:13pt;
+      width: 90%;
       float:right;
+ }
 
-
+ .body{
+   margin-top: 67vw;
  }
 
 
     h1{
-      margin-bottom: 55vw;
+    display: none;
     }
 
 
@@ -49,8 +51,16 @@
     }
 
     #back{
-     right:20vw;
+     right:4vw;
      top:480vw;
+    }
+
+    .logo{
+    position: absolute;
+    width:10%;
+    right:1220px;
+    bottom:673px;
+
     }
 
   }
@@ -147,7 +157,7 @@ h1{
   transform: rotate(90deg);
   float: left;
   margin-top:5.5vw;
-  margin-left:-30px;
+  margin-left:-2vw;
   font-family:"circe";
   font-size:1.5em;
   color:#4040a1;
