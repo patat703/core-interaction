@@ -11,44 +11,35 @@
       font-size:13pt;
       width: 90%;
       float:right;
- }
+    }
 
  .body{
-   margin-top: 67vw;
- }
+       margin-top: 70vw;
+     }
 
 
     h1{
-    display: none;
-    }
+      display: none;
+      }
 
 
     h2{
-     /* color:green;
-     font-family:"circe";
-     float: left; */
      position: absolute;
      margin-left: 3vw;
      font-size: 2em;
     }
 
     h3{
-     /* margin-top:1.7vw;
-     font-family:"circe";
-     float: left;
-     color:#d64161; */
      position: absolute;
      margin-left:3.9vw;
      font-size: 1.5em;
     }
 
     .hover01 figure img{
-    /* position: absolute;
-    margin-bottom:30vw;
-    margin-left:-8.7vw;
-    width: auto; */
-    margin-top: 10vw;
-    }
+
+      margin-top: 10vw;
+      margin-left:3vw;
+      }
 
     #back{
      right:4vw;
@@ -56,13 +47,17 @@
     }
 
     .logo{
-    position: absolute;
-    width:10%;
-    right:1220px;
-    bottom:673px;
+      position: absolute;
+      width:10%;
+      right:1220px;
+      bottom:673px;
+      }
 
-    }
-
+      .navbar1 {
+       position: absolute;
+       width: 100%;
+       top:116rem;
+      }
   }
 
 /* top bar */
@@ -87,8 +82,7 @@
  background: yellow;
  color: black;
 }
-/*
-bottom bar */
+/*bottom bar */
 .navbar1 a {
  float: right;
  display: block;
@@ -112,6 +106,7 @@ bottom bar */
  color: black;
 }
 
+/* setting top banner */
 .header{
 width: auto;
 background-size:cover;
@@ -127,6 +122,7 @@ overflow:hidden;
       transform: scale(1.1);
 }
 
+/* content image interaction */
 .hover01{
 position: absolute;
 margin-bottom:47vw;
