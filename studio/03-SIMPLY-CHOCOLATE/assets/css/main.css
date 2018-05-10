@@ -14,7 +14,7 @@
 
 .navbar {
  overflow: hidden;
- background-color: white;
+ background-color: #ffeead;
 }
 
 .navbar a:hover {
@@ -22,32 +22,44 @@
  color: black;
 }
 
-.header{
- width:100%;
- background-size:cover;
- background-repeat: no-repeat;
- background-position: center;
- overflow:hidden;
- margin-bottom:50px;
+/*bottom bar */
+.navbar1 a {
+ float: right;
+ display: block;
+ color: black;
+ padding: 50px 16px;
+ text-decoration: none;
+ font-size: 10px;
+ font-family: sofia-pro-soft, sans-serif;
+ font-style: normal;
+ font-weight: 500;
 }
 
-.rotated{
-   transform: rotate(90deg);
-   float: left;
-   margin-top:40px;
-   margin-left:-30px;
-   font-family:"circe";
-   font-size:1.5em;
+.navbar1 {
+ overflow: hidden;
+ background-color:#ffeead;
+ margin-top:40vw;
 }
+
+.navbar1 a:hover {
+ background: yellow;
+ color: black;
+}
+
+
+.header{
+  width: auto;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+}
+
 
 .hover01{
-margin-top: 20px;
-margin-left:190px;
-height: 100px;
+position: absolute;
+margin-left:1vw;
 width: auto;
-display: inline-block;
-position:absolute;
-left:-180px;
 }
 
 /* Zoom In #1 */
@@ -64,11 +76,11 @@ left:-180px;
 }
 
 .two{
-  margin-top:-80px;
+  margin-top:-5vw;
 }
 
 .three{
-  margin-top:-80px;
+  margin-top:-5vw;
 }
 
 a{
@@ -78,7 +90,13 @@ a{
 }
 
 h1{
- color:#4040a1;
+  transform: rotate(90deg);
+  float: left;
+  margin-top:5.5vw;
+  margin-left:-2vw;
+  font-family:"circe";
+  font-size:1.5em;
+  color:#4040a1;
 }
 
 h2{
@@ -88,7 +106,7 @@ h2{
 }
 
 h3{
- margin-top:22.5px;
+ margin-top:1.7vw;
  font-family:"circe";
  float: left;
  color:#d64161
@@ -98,17 +116,16 @@ h3{
 p {
    display: inline-block;
    font-family: "circe";
-   margin-left: 40em;
-   margin-right: 3em;
+   margin-left: 50vw;
+   margin-right: 3vw;
 }
 
 #back{
  font-family: "circe";
- font-size: 100px;
+ font-size: 80px;
  transform: rotate(180deg);
  position: absolute;
- right:50px;
- margin-top:100px;
+ left:80vw;
  text-decoration: none;
  color:#4040a1;
 }
