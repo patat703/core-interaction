@@ -119,6 +119,7 @@ transition: all 1s ease;
 .header:hover{
   -webkit-filter: brightness(100%);
 }
+
 .hover01{
   position: absolute;
   margin-top:4vw;
