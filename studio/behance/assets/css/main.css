@@ -1,11 +1,37 @@
 @import url("https://use.typekit.net/vxb2dqu.css");
 
+
+/* Extra small devices (phones, 478px and down) */
+@media only screen and (max-width: 600px) {
+
+    .container{
+      margin-top: 50vw;
+      }
+
+    h1{
+      display: none;
+      }
+
+    h2{
+     position: absolute;
+     margin-left: 3vw;
+     font-size: 2em;
+    }
+
+    h3{
+     position: absolute;
+     margin-left:3.9vw;
+     font-size: 1.5em;
+    }
+
+  }
+
 .div1 a{
   font-family: "circe";
   font-size: 90px;
   position: absolute;
-  right:50px;
-  margin-top:-30px;
+  right:4vw;
+  margin-top:-1vw;
   text-decoration: none;
   color:#F9F073;
   position: fixed;
@@ -14,12 +40,8 @@
   animation: blink 2s linear 0s 3 normal ;
 }
 
-.img{
-
-}
-
 .work img {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -39,24 +61,15 @@
   text-align: center;
 }
 
-.rotated{
-   transform: rotate(90deg);
-   float: left;
-   margin-top:40px;
-   margin-left:-30px;
-   font-family:"circe";
-   font-size:1.5em;
-}
-
-.head{
-  margin-bottom: 100px;
-}
-
 h1{
   color:#4040a1;
   position: absolute;
-  top:170px;
-  left:-20px;
+  top:10vw;
+  left:-3vw;
+  transform: rotate(90deg);
+  float: left;
+  font-family:"circe";
+  font-size:1.5em;
 }
 
 h4{
@@ -65,8 +78,8 @@ h4{
   float: left;
   position:absolute;
   font-size:1.9em;
-  left:130px;
-  top:39px;
+  left:7vw;
+  top:2vw;
 }
 
 /* div.angrytext {

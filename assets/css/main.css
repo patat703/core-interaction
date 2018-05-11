@@ -18,10 +18,10 @@ body {
 }
 
 h1 {
-  font-size:6em;
+  font-size:3em;
   color: #F9F073;
   text-transform: uppercase;
-  margin: 100px;
+  margin-bottom: 20vw;
   text-align: center;
 }
 

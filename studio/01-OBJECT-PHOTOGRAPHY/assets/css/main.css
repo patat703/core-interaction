@@ -41,17 +41,9 @@
       margin-left:3vw;
       }
 
-    #back{
-     right:4vw;
-     top:480vw;
-    }
-
-    .logo{
-    position: absolute;
-      width:10%;
-      right:1220px;
-      bottom:673px;
-      }
+        .logo{
+          display: none;
+          }
 
       .navbar1 {
        position: absolute;
@@ -113,7 +105,6 @@ background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
 overflow:hidden;
-
 }
 
 .header:hover{
@@ -157,7 +148,6 @@ h1{
   font-family:"circe";
   font-size:1.5em;
   color:#4040a1;
-
 }
 
 h2{
@@ -182,10 +172,9 @@ p {
 
 #back{
  font-family: "circe";
- font-size: 80px;
+ font-size: 2em;
  transform: rotate(180deg);
- position: absolute;
- left:80vw;
+ left:90vw;
  text-decoration: none;
  color:#4040a1;
 }

@@ -1,5 +1,46 @@
   @import url("https://use.typekit.net/vxb2dqu.css");
 
+
+
+  /* Extra small devices (phones, 478px and down) */
+  @media only screen and (max-width: 600px) {
+
+      h1{
+        display: none;
+        }
+
+
+      h2{
+       margin-left: 3vw;
+       font-size: 1em;
+      }
+
+      h3{
+       margin-left:2vw;
+       margin-bottom:10vw;
+       font-size: 1em;
+      }
+
+      a:link{
+        font-size:1em;
+        line-height:15vw;
+
+      }
+
+
+      #back{
+      position: absolute;
+       right:43vw;
+       top:170vw;
+      }
+
+      #demo{
+        display: none;
+      }
+
+    }
+
+
 p {
     display: block;
 }
@@ -20,22 +61,18 @@ p {
 
 h1{
  color:#4040a1;
+ transform: rotate(90deg);
+ float: left;
+ margin-top:5.5vw;
+ margin-left:-2vw;
+ font-family:"circe";
+ font-size:1.5em;
 }
 
 h1:hover{
   font-family: "circe";
   transform: scale(4);
   }
-
-
-.rotated{
-   transform: rotate(90deg);
-   float: left;
-   margin-top:80px;
-   margin-left:-30px;
-   font-family:"circe";
-   font-size:1.8em;
-}
 
 h2{
  color:green;
@@ -49,7 +86,7 @@ h2:hover{
   }
 
 h3{
- margin-top:22.5px;
+ margin-top:1.7vw;
  font-family:"circe";
  float: left;
  color:#d64161;
@@ -61,18 +98,15 @@ h3:hover{
 
 .head{
 position: absolute;
-top:28px;
-
+top:2vw;
 }
-
-
 
 a {
   text-decoration: none;
   font-size: 4em;
   font-family: "circe";
   text-align:center;
-  line-height: 90px;
+  line-height: 8vw;
   color: #5c0a77;
   display:block;
   margin: auto;
@@ -111,15 +145,15 @@ position:fixed;
 } */
 
 #container{
-  margin-top:120px;
+  margin-top:9vw;
 }
 
 #demo{
 font-family: "circe";
 font-size: 20px;
 position:absolute;
-right: 50px;
-top: 28px;
+right: 4vw;
+top: 2vw;
 }
 
 #demo:hover{

@@ -1,5 +1,56 @@
 @import url("https://use.typekit.net/vxb2dqu.css");
 
+/* Extra small devices (phones, 478px and down) */
+@media only screen and (max-width: 600px) {
+
+    img{
+      width:100%;
+    }
+    p{
+      font-size:13pt;
+      width: 90%;
+      float:right;
+    }
+
+ .body{
+       margin-top: 200vw;
+     }
+
+
+    h1{
+      display: none;
+      }
+
+
+    h2{
+     position: absolute;
+     margin-left: 3vw;
+     font-size: 2em;
+    }
+
+    h3{
+     position: absolute;
+     margin-left:3.9vw;
+     font-size: 1.5em;
+    }
+
+    .hover01 figure img{
+
+      margin-top: 10vw;
+      margin-left:3vw;
+      }
+
+      .logo{
+      display: none;
+      }
+
+      .navbar1 {
+       position: absolute;
+       width: 100%;
+       top:100rem;
+      }
+  }
+
 .navbar a {
  float: left;
  display: block;
@@ -14,7 +65,7 @@
 
 .navbar {
  overflow: hidden;
- background-color: white;
+ background-color: #ffeead;
 }
 
 .navbar a:hover {
@@ -22,13 +73,37 @@
  color: black;
 }
 
+/*bottom bar */
+.navbar1 a {
+ float: right;
+ display: block;
+ color: black;
+ padding: 50px 16px;
+ text-decoration: none;
+ font-size: 10px;
+ font-family: sofia-pro-soft, sans-serif;
+ font-style: normal;
+ font-weight: 500;
+}
+
+.navbar1 {
+ overflow: hidden;
+ background-color:#ffeead;
+ margin-top:40vw;
+}
+
+.navbar1 a:hover {
+ background: yellow;
+ color: black;
+}
+
+
 .header{
- width:100%;
- background-size:cover;
- background-repeat: no-repeat;
- background-position: center;
- overflow:hidden;
- margin-bottom:50px;
+  width: auto;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
 }
 
 .header:hover{
@@ -36,22 +111,9 @@
 }
 
 .hover01{
-margin-top:30px;
-margin-left:180px;
-height: 500px;
-width: auto;
-display: inline-block;
-position:absolute;
-left:-180px;
-}
-
-.rotated{
-   transform: rotate(90deg);
-   float: left;
-   margin-top:40px;
-   margin-left:-30px;
-   font-family:"circe";
-   font-size:1.5em;
+  position: absolute;
+  margin-top:3vw;
+  width: auto;
 }
 
 /* Zoom In #1 */
@@ -68,11 +130,11 @@ left:-180px;
 }
 
 .urban{
-margin-top:-80px;
+margin-top:-5vw;
 }
 
 .outfitter{
-  margin-top:-80px;
+  margin-top:-5vw;
 }
 
 a{
@@ -82,7 +144,14 @@ a{
 }
 
 h1{
- color:#4040a1;
+  transform: rotate(90deg);
+  float: left;
+  margin-top:5.5vw;
+  margin-left:-2vw;
+  font-family:"circe";
+  font-size:1.5em;
+ font-size:1.5em;
+   color:#4040a1;
 }
 
 h2{
@@ -92,7 +161,7 @@ h2{
 }
 
 h3{
- margin-top:22.5px;
+margin-top:1.7vw;
  font-family:"circe";
  float: left;
  color:#d64161
@@ -102,17 +171,15 @@ h3{
 p {
    display: inline-block;
    font-family: "circe";
-   margin-left: 40em;
-   margin-right: 3em;
+   margin-left: 50vw;
+   margin-right: 3vw;
 }
 
 #back{
- font-family: "circe";
- font-size: 100px;
- transform: rotate(180deg);
- position: absolute;
- right:50px;
- margin-top:300px;
- text-decoration: none;
- color:#4040a1;
+  font-family: "circe";
+  font-size: 2em;
+  transform: rotate(180deg);
+  left:90vw;
+  text-decoration: none;
+  color:#4040a1;
 }

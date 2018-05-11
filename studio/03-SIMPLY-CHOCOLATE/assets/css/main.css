@@ -1,5 +1,59 @@
 @import url("https://use.typekit.net/vxb2dqu.css");
 
+/* Extra small devices (phones, 478px and down) */
+@media only screen and (max-width: 600px) {
+
+    img{
+      width:100%;
+    }
+    p{
+      font-size:13pt;
+      width: 90%;
+      float:right;
+    }
+
+ .body{
+       margin-top: 200vw;
+     }
+
+
+    h1{
+      display: none;
+      }
+
+
+    h2{
+     position: absolute;
+     margin-left: 3vw;
+     font-size: 2em;
+    }
+
+    h3{
+     position: absolute;
+     margin-left:3.9vw;
+     font-size: 1.5em;
+    }
+
+    .hover01 {
+      position: static;
+    }
+
+    .hover01 figure img{
+      margin-top: 10vw;
+      margin-left:3vw;
+      }
+
+    .logo{
+      display: none;
+      }
+
+      .navbar1 {
+       position: absolute;
+       width: 100%;
+       top:105rem;
+      }
+  }
+
 .navbar a {
  float: left;
  display: block;
@@ -122,10 +176,9 @@ p {
 
 #back{
  font-family: "circe";
- font-size: 80px;
+ font-size: 2em;
  transform: rotate(180deg);
- position: absolute;
- left:80vw;
+ left:90vw;
  text-decoration: none;
  color:#4040a1;
 }
