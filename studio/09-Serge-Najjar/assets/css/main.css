@@ -17,11 +17,11 @@
 
 
   .body{
-        margin-top: 230vw;
+        top: 250vw;
       }
 
       .hover01{
-        top:80vw;
+        top:320vw;
       }
 
      h1{
@@ -47,7 +47,7 @@
        .navbar1 {
         position: absolute;
         width: 100%;
-        top:60rem;
+        top:120rem;
        }
 
        .animated-gif{
@@ -101,7 +101,7 @@
 .navbar1 {
  overflow: hidden;
  background-color:#ffeead;
- margin-top:650px;
+ margin-top:29vw;
 }
 
 .navbar1 a:hover {
@@ -136,6 +136,10 @@
 .hover01 figure:hover img {
  -webkit-transform: scale(1.2);
  transform: scale(1.2);
+}
+
+.body{
+    margin-top:-12rem;
 }
 
 
@@ -174,7 +178,6 @@ p {
   font-family: "circe";
   margin-left: 50vw;
   margin-right: 3vw;
-  margin-top:-2vw;
 }
 
 #back{
