@@ -20,7 +20,7 @@
       }
 
       .hover01{
-        top:80vw;
+        top:95vw;
       }
 
      h1{
@@ -46,7 +46,7 @@
        .navbar1 {
         position: absolute;
         width: 100%;
-        top:80rem;
+        top:125rem;
        }
 
        .animated-gif{
@@ -96,7 +96,7 @@
 .navbar1 {
  overflow: hidden;
  background-color:#ffeead;
- margin-top:46vw;
+ margin-top:25vw;
 }
 
 .navbar1 a:hover {
